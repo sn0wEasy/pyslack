@@ -35,6 +35,7 @@ def pyslack(request):
 def func():
     inst = Qprint()
     qprint = inst.qprint
+    print = inst.qprint
 {}
     return inst.res()
             """.format(input_obj)
